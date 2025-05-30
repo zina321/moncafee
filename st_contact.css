@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("cafe1.jpg");
+ background-image: -moz-element();
+  background: position 0%; 
+  text-align: center;
+ 
+}
+
+section#contact {
+  padding: 40px 20px;
+
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #161514; /* couleur café */
+}
+
+h3 {
+  color: #000000;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #5c4033;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #3d291f;
+}
+
+
+  #contact div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  #contact div > div {
+    flex: 1;
+  }
+
+  form {
+    max-width: 500px;
+  }
+
+
+
+
+header {
+  background-color: #959393;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+  
+}
+header nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #140101;
+  font-size: large;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px 10px 10px;
+  padding: 20px;
+}
+ img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
